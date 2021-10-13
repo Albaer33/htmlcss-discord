@@ -34,6 +34,9 @@ img {
 .row {
     padding: 200px 0px;
 }
+.lightgrey{
+    background-color: lightgray;
+}
 /* HEADER */
 /* header top part */
 .bg-blue {
@@ -112,5 +115,10 @@ img {
     margin-bottom: 50px;
 }
 .text-container {
-    width: 70%;
+    width: 50%;
+    margin: auto;
 }
+.main-bottom {
+    padding-top: 100px;
+}
+
