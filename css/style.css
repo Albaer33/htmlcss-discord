@@ -9,3 +9,75 @@
 body {
     font-family: "Whitney",sans-serif;
 }
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col {
+    float: left;
+}
+.container {
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+img {
+    width: 100%;
+}
+.small-btn {
+    padding: 10px 16px;
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+}
+
+/* HEADER */
+/* header top part */
+.bg-blue {
+    background-color: #3161e0;
+    padding: 20px 0;
+}
+.col-left, .col-right {
+    width: 10%;
+}
+.col-middle {
+    width: 80%;
+}
+.col-middle ul {
+    text-align: center;
+    list-style-type: none;
+}
+.col-middle ul li {
+    display: inline-block;
+}
+.col-middle ul li a {
+    line-height: 35px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+.col-right a {
+    line-height: 35px;
+    text-decoration: none;
+}
+/* header bottom part */
+.bg-img {
+    width: 100%;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+.header-text {
+    width: 40%;
+    margin: auto;
+    padding: 150px 0;
+    text-align: center;
+    color: white;
+}
+h1 {
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+.text {
+    font-size: 24px;
+}
