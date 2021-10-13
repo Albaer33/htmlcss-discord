@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* COMMON */
 body {
     font-family: "Whitney",sans-serif;
@@ -24,6 +23,16 @@ body {
 }
 img {
     width: 100%;
+}
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+.text {
+    font-size: 24px;
+}
+.row {
+    padding: 200px 0px;
 }
 /* HEADER */
 /* header top part */
@@ -60,13 +69,6 @@ img {
     text-align: center;
     color: white;
 }
-h1 {
-    margin-bottom: 40px;
-    font-size: 60px;
-}
-.text {
-    font-size: 24px;
-}
 /* buttons */
 .link {
     padding: 0 20px;
@@ -102,4 +104,13 @@ h1 {
 }
 .dark a{
     color: white;
+}
+/* MAIN */
+.main-left, .main-right {
+    width: 50%;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+.text-container {
+    width: 70%;
 }
